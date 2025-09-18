@@ -3,7 +3,7 @@ entries:
   pedido-app:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-17T18:31:06.3724782-05:00"
+    created: "2025-09-17T19:25:55.2559602-05:00"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -15,7 +15,7 @@ entries:
     name: pedido-app
     type: application
     urls:
-    - https://github.com/alejandrazuleta1/pedidos-charts/tree/dc6cab939b0d9c8c4e76b285bf593f612c7a0f4e/charts/pedido-app-0.1.0.tgz
+    - https://alejandrazuleta1.github.io/pedidos-charts/charts/pedido-app-0.1.0.tgz
     version: 0.1.0
   postgresql:
   - annotations:
@@ -30,7 +30,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 15.4.0
-    created: "2025-09-17T18:31:06.3751416-05:00"
+    created: "2025-09-17T19:25:55.2596617-05:00"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -57,6 +57,6 @@ entries:
     sources:
     - https://github.com/bitnami/charts/tree/main/bitnami/postgresql
     urls:
-    - https://github.com/alejandrazuleta1/pedidos-charts/tree/dc6cab939b0d9c8c4e76b285bf593f612c7a0f4e/charts/postgresql-12.12.10.tgz
+    - https://alejandrazuleta1.github.io/pedidos-charts/charts/postgresql-12.12.10.tgz
     version: 12.12.10
-generated: "2025-09-17T18:31:06.3698638-05:00"
+generated: "2025-09-17T19:25:55.2517231-05:00"
