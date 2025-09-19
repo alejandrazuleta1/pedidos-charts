@@ -3,7 +3,23 @@ entries:
   pedido-app:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.502458248Z"
+    created: "2025-09-19T20:07:26.752429101Z"
+    dependencies:
+    - alias: db
+      condition: db.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 12.12.10
+    description: Sistema de gestión de pedidos
+    digest: 51a0663e00b75ce27f13fe8c7ce936e13875ebb90a7a7d418b891c0d0bc3672a
+    name: pedido-app
+    type: application
+    urls:
+    - https://alejandrazuleta1.github.io/pedidos-charts/pedido-app-0.1.144.tgz
+    version: 0.1.144
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-09-19T20:07:26.734047965Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -19,7 +35,7 @@ entries:
     version: 0.1.143
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.494389163Z"
+    created: "2025-09-19T20:07:26.727340661Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -35,7 +51,7 @@ entries:
     version: 0.1.142
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.486630897Z"
+    created: "2025-09-19T20:07:26.718208261Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -51,7 +67,7 @@ entries:
     version: 0.1.141
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.475260547Z"
+    created: "2025-09-19T20:07:26.708633349Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -67,7 +83,7 @@ entries:
     version: 0.1.140
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.458726101Z"
+    created: "2025-09-19T20:07:26.690631949Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -83,7 +99,7 @@ entries:
     version: 0.1.139
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.451237886Z"
+    created: "2025-09-19T20:07:26.667267353Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -99,7 +115,7 @@ entries:
     version: 0.1.138
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.441062307Z"
+    created: "2025-09-19T20:07:26.657505353Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -115,7 +131,7 @@ entries:
     version: 0.1.137
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.431101076Z"
+    created: "2025-09-19T20:07:26.650061551Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -131,7 +147,7 @@ entries:
     version: 0.1.136
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.421713341Z"
+    created: "2025-09-19T20:07:26.640826951Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -147,7 +163,7 @@ entries:
     version: 0.1.135
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.413201604Z"
+    created: "2025-09-19T20:07:26.633967425Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -163,7 +179,7 @@ entries:
     version: 0.1.134
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.397821112Z"
+    created: "2025-09-19T20:07:26.622739451Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -179,7 +195,7 @@ entries:
     version: 0.1.133
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.383593303Z"
+    created: "2025-09-19T20:07:26.614130704Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -195,7 +211,7 @@ entries:
     version: 0.1.132
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.373868572Z"
+    created: "2025-09-19T20:07:26.599817808Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -211,7 +227,7 @@ entries:
     version: 0.1.131
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.360601068Z"
+    created: "2025-09-19T20:07:26.590799289Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -227,7 +243,7 @@ entries:
     version: 0.1.130
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.34319393Z"
+    created: "2025-09-19T20:07:26.572926088Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -243,7 +259,7 @@ entries:
     version: 0.1.129
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.330498468Z"
+    created: "2025-09-19T20:07:26.561467676Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -259,7 +275,7 @@ entries:
     version: 0.1.128
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.316559335Z"
+    created: "2025-09-19T20:07:26.547617148Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -275,7 +291,7 @@ entries:
     version: 0.1.127
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.30858143Z"
+    created: "2025-09-19T20:07:26.539171144Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -291,7 +307,7 @@ entries:
     version: 0.1.126
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.296609984Z"
+    created: "2025-09-19T20:07:26.526445707Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -307,7 +323,7 @@ entries:
     version: 0.1.125
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.288407952Z"
+    created: "2025-09-19T20:07:26.501728879Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -323,7 +339,7 @@ entries:
     version: 0.1.124
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.276760979Z"
+    created: "2025-09-19T20:07:26.490959808Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -339,7 +355,7 @@ entries:
     version: 0.1.123
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.268928984Z"
+    created: "2025-09-19T20:07:26.472215116Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -355,7 +371,7 @@ entries:
     version: 0.1.122
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.257770869Z"
+    created: "2025-09-19T20:07:26.445750349Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -371,7 +387,7 @@ entries:
     version: 0.1.121
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.246113848Z"
+    created: "2025-09-19T20:07:26.435247983Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -387,7 +403,7 @@ entries:
     version: 0.1.120
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.221884102Z"
+    created: "2025-09-19T20:07:26.408624511Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -403,7 +419,7 @@ entries:
     version: 0.1.119
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.213674115Z"
+    created: "2025-09-19T20:07:26.38669429Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -419,7 +435,7 @@ entries:
     version: 0.1.118
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.204166357Z"
+    created: "2025-09-19T20:07:26.36338621Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -435,7 +451,7 @@ entries:
     version: 0.1.117
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.191620323Z"
+    created: "2025-09-19T20:07:26.343202364Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -451,7 +467,7 @@ entries:
     version: 0.1.116
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.182692814Z"
+    created: "2025-09-19T20:07:26.335006965Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -467,7 +483,7 @@ entries:
     version: 0.1.115
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.165914926Z"
+    created: "2025-09-19T20:07:26.315035875Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -483,7 +499,7 @@ entries:
     version: 0.1.114
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.154868999Z"
+    created: "2025-09-19T20:07:26.306558272Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -499,7 +515,7 @@ entries:
     version: 0.1.113
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.146787632Z"
+    created: "2025-09-19T20:07:26.296641094Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -515,7 +531,7 @@ entries:
     version: 0.1.112
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.131129203Z"
+    created: "2025-09-19T20:07:26.288370105Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -531,7 +547,7 @@ entries:
     version: 0.1.111
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.123654474Z"
+    created: "2025-09-19T20:07:26.272633954Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -547,7 +563,7 @@ entries:
     version: 0.1.110
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.076321485Z"
+    created: "2025-09-19T20:07:26.22450538Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -563,7 +579,7 @@ entries:
     version: 0.1.109
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.063109534Z"
+    created: "2025-09-19T20:07:26.216153311Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -579,7 +595,7 @@ entries:
     version: 0.1.108
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.053048929Z"
+    created: "2025-09-19T20:07:26.201931744Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -595,7 +611,7 @@ entries:
     version: 0.1.107
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.033580972Z"
+    created: "2025-09-19T20:07:26.193549078Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -611,7 +627,7 @@ entries:
     version: 0.1.106
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.0252607Z"
+    created: "2025-09-19T20:07:26.185127288Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -627,7 +643,7 @@ entries:
     version: 0.1.105
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.014598818Z"
+    created: "2025-09-19T20:07:26.167573009Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -643,7 +659,7 @@ entries:
     version: 0.1.104
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.006854446Z"
+    created: "2025-09-19T20:07:26.159181646Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -659,7 +675,7 @@ entries:
     version: 0.1.103
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:05.996401602Z"
+    created: "2025-09-19T20:07:26.150224532Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -675,7 +691,7 @@ entries:
     version: 0.1.102
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:05.987850983Z"
+    created: "2025-09-19T20:07:26.142860218Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -691,7 +707,7 @@ entries:
     version: 0.1.101
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:05.979069754Z"
+    created: "2025-09-19T20:07:26.133996266Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -707,7 +723,7 @@ entries:
     version: 0.1.100
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:07.441889294Z"
+    created: "2025-09-19T20:07:27.675516083Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -723,7 +739,7 @@ entries:
     version: 0.1.99
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:07.434207579Z"
+    created: "2025-09-19T20:07:27.665634961Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -739,7 +755,7 @@ entries:
     version: 0.1.98
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:07.424176118Z"
+    created: "2025-09-19T20:07:27.648285864Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -755,7 +771,7 @@ entries:
     version: 0.1.97
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:07.414920147Z"
+    created: "2025-09-19T20:07:27.636650933Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -771,7 +787,7 @@ entries:
     version: 0.1.96
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:07.408107007Z"
+    created: "2025-09-19T20:07:27.62118263Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -787,7 +803,7 @@ entries:
     version: 0.1.95
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:07.396309433Z"
+    created: "2025-09-19T20:07:27.59608311Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -803,7 +819,7 @@ entries:
     version: 0.1.94
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:07.389144348Z"
+    created: "2025-09-19T20:07:27.588317189Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -819,7 +835,7 @@ entries:
     version: 0.1.93
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:07.379143785Z"
+    created: "2025-09-19T20:07:27.573722169Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -835,7 +851,7 @@ entries:
     version: 0.1.92
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:07.371796552Z"
+    created: "2025-09-19T20:07:27.565627698Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -851,7 +867,7 @@ entries:
     version: 0.1.91
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:07.360366592Z"
+    created: "2025-09-19T20:07:27.556208074Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -867,7 +883,7 @@ entries:
     version: 0.1.90
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:07.341317063Z"
+    created: "2025-09-19T20:07:27.53413648Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -883,7 +899,7 @@ entries:
     version: 0.1.89
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:07.333334068Z"
+    created: "2025-09-19T20:07:27.52462155Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -899,7 +915,7 @@ entries:
     version: 0.1.88
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:07.323012949Z"
+    created: "2025-09-19T20:07:27.517605082Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -915,7 +931,7 @@ entries:
     version: 0.1.87
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:07.312408492Z"
+    created: "2025-09-19T20:07:27.506337294Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -931,7 +947,7 @@ entries:
     version: 0.1.86
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:07.304020134Z"
+    created: "2025-09-19T20:07:27.498948965Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -947,7 +963,7 @@ entries:
     version: 0.1.85
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:07.290185245Z"
+    created: "2025-09-19T20:07:27.48408757Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -963,7 +979,7 @@ entries:
     version: 0.1.84
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:07.280486844Z"
+    created: "2025-09-19T20:07:27.476599405Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -979,7 +995,7 @@ entries:
     version: 0.1.83
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:07.266377845Z"
+    created: "2025-09-19T20:07:27.465707245Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -995,7 +1011,7 @@ entries:
     version: 0.1.82
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:07.259330829Z"
+    created: "2025-09-19T20:07:27.458095622Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -1011,7 +1027,7 @@ entries:
     version: 0.1.81
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:07.243105038Z"
+    created: "2025-09-19T20:07:27.446933921Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -1027,7 +1043,7 @@ entries:
     version: 0.1.80
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:07.216339099Z"
+    created: "2025-09-19T20:07:27.427308563Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -1043,7 +1059,7 @@ entries:
     version: 0.1.79
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:07.208142697Z"
+    created: "2025-09-19T20:07:27.419997688Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -1059,7 +1075,7 @@ entries:
     version: 0.1.78
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:07.197715641Z"
+    created: "2025-09-19T20:07:27.409131456Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -1075,7 +1091,7 @@ entries:
     version: 0.1.77
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:07.189847069Z"
+    created: "2025-09-19T20:07:27.402768282Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -1091,7 +1107,7 @@ entries:
     version: 0.1.76
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:07.179789479Z"
+    created: "2025-09-19T20:07:27.391014091Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -1107,7 +1123,7 @@ entries:
     version: 0.1.75
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:07.170794513Z"
+    created: "2025-09-19T20:07:27.382492175Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -1123,7 +1139,7 @@ entries:
     version: 0.1.74
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:07.158922703Z"
+    created: "2025-09-19T20:07:27.374369762Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -1139,7 +1155,7 @@ entries:
     version: 0.1.73
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:07.149662776Z"
+    created: "2025-09-19T20:07:27.365234006Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -1155,7 +1171,7 @@ entries:
     version: 0.1.72
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:07.13371505Z"
+    created: "2025-09-19T20:07:27.354903449Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -1171,7 +1187,7 @@ entries:
     version: 0.1.71
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:07.124092388Z"
+    created: "2025-09-19T20:07:27.34723487Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -1187,7 +1203,7 @@ entries:
     version: 0.1.70
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:07.107849995Z"
+    created: "2025-09-19T20:07:27.328416962Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -1203,7 +1219,7 @@ entries:
     version: 0.1.69
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:07.099397288Z"
+    created: "2025-09-19T20:07:27.318908113Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -1219,7 +1235,7 @@ entries:
     version: 0.1.68
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:07.085726204Z"
+    created: "2025-09-19T20:07:27.311225447Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -1235,7 +1251,7 @@ entries:
     version: 0.1.67
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:07.076021439Z"
+    created: "2025-09-19T20:07:27.301568022Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -1251,7 +1267,7 @@ entries:
     version: 0.1.66
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:07.061955782Z"
+    created: "2025-09-19T20:07:27.294233643Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -1267,7 +1283,7 @@ entries:
     version: 0.1.65
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:07.05414133Z"
+    created: "2025-09-19T20:07:27.284343324Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -1283,7 +1299,7 @@ entries:
     version: 0.1.64
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:07.04483181Z"
+    created: "2025-09-19T20:07:27.278203636Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -1299,7 +1315,7 @@ entries:
     version: 0.1.63
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:07.037471293Z"
+    created: "2025-09-19T20:07:27.270059513Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -1315,7 +1331,7 @@ entries:
     version: 0.1.62
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:07.028235059Z"
+    created: "2025-09-19T20:07:27.262252756Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -1331,7 +1347,7 @@ entries:
     version: 0.1.61
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:07.020534579Z"
+    created: "2025-09-19T20:07:27.254487046Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -1347,7 +1363,7 @@ entries:
     version: 0.1.60
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.999301031Z"
+    created: "2025-09-19T20:07:27.238599113Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -1363,7 +1379,7 @@ entries:
     version: 0.1.59
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.985078703Z"
+    created: "2025-09-19T20:07:27.227846212Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -1379,7 +1395,7 @@ entries:
     version: 0.1.58
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.976811039Z"
+    created: "2025-09-19T20:07:27.219186561Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -1395,7 +1411,7 @@ entries:
     version: 0.1.57
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.968217329Z"
+    created: "2025-09-19T20:07:27.208325358Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -1411,7 +1427,7 @@ entries:
     version: 0.1.56
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.961124619Z"
+    created: "2025-09-19T20:07:27.201398246Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -1427,7 +1443,7 @@ entries:
     version: 0.1.55
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.951840206Z"
+    created: "2025-09-19T20:07:27.19040544Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -1443,7 +1459,7 @@ entries:
     version: 0.1.54
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.941695884Z"
+    created: "2025-09-19T20:07:27.183159014Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -1459,7 +1475,7 @@ entries:
     version: 0.1.53
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.930650018Z"
+    created: "2025-09-19T20:07:27.170745898Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -1475,7 +1491,7 @@ entries:
     version: 0.1.52
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.921902383Z"
+    created: "2025-09-19T20:07:27.162262885Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -1491,7 +1507,7 @@ entries:
     version: 0.1.51
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.911563471Z"
+    created: "2025-09-19T20:07:27.143534033Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -1507,7 +1523,7 @@ entries:
     version: 0.1.50
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.89553774Z"
+    created: "2025-09-19T20:07:27.125137078Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -1523,7 +1539,7 @@ entries:
     version: 0.1.49
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.888723167Z"
+    created: "2025-09-19T20:07:27.118503811Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -1539,7 +1555,7 @@ entries:
     version: 0.1.48
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.879139918Z"
+    created: "2025-09-19T20:07:27.108871914Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -1555,7 +1571,7 @@ entries:
     version: 0.1.47
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.872085289Z"
+    created: "2025-09-19T20:07:27.100563104Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -1571,7 +1587,7 @@ entries:
     version: 0.1.46
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.862855668Z"
+    created: "2025-09-19T20:07:27.091128473Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -1587,7 +1603,7 @@ entries:
     version: 0.1.45
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.855711081Z"
+    created: "2025-09-19T20:07:27.083930928Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -1603,7 +1619,7 @@ entries:
     version: 0.1.44
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.847390179Z"
+    created: "2025-09-19T20:07:27.074854392Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -1619,7 +1635,7 @@ entries:
     version: 0.1.43
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.834282331Z"
+    created: "2025-09-19T20:07:27.067430137Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -1635,7 +1651,7 @@ entries:
     version: 0.1.42
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.827640158Z"
+    created: "2025-09-19T20:07:27.056554127Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -1651,7 +1667,7 @@ entries:
     version: 0.1.41
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.817404306Z"
+    created: "2025-09-19T20:07:27.049052738Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -1667,7 +1683,7 @@ entries:
     version: 0.1.40
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.781741044Z"
+    created: "2025-09-19T20:07:27.031807243Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -1683,7 +1699,7 @@ entries:
     version: 0.1.39
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.77331216Z"
+    created: "2025-09-19T20:07:27.02015508Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -1699,7 +1715,7 @@ entries:
     version: 0.1.38
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.761712806Z"
+    created: "2025-09-19T20:07:27.012829017Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -1715,7 +1731,7 @@ entries:
     version: 0.1.37
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.752834517Z"
+    created: "2025-09-19T20:07:27.0025196Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -1731,7 +1747,7 @@ entries:
     version: 0.1.36
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.744157884Z"
+    created: "2025-09-19T20:07:26.993524314Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -1747,7 +1763,7 @@ entries:
     version: 0.1.35
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.736435102Z"
+    created: "2025-09-19T20:07:26.982730087Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -1763,7 +1779,7 @@ entries:
     version: 0.1.34
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.724400489Z"
+    created: "2025-09-19T20:07:26.971965735Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -1779,7 +1795,7 @@ entries:
     version: 0.1.33
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.717054718Z"
+    created: "2025-09-19T20:07:26.960944184Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -1795,7 +1811,7 @@ entries:
     version: 0.1.32
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.706527266Z"
+    created: "2025-09-19T20:07:26.952501376Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -1811,7 +1827,7 @@ entries:
     version: 0.1.31
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.698781111Z"
+    created: "2025-09-19T20:07:26.941863208Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -1827,7 +1843,7 @@ entries:
     version: 0.1.30
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.681179201Z"
+    created: "2025-09-19T20:07:26.924767832Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -1843,7 +1859,7 @@ entries:
     version: 0.1.29
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.671878418Z"
+    created: "2025-09-19T20:07:26.912286319Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -1859,7 +1875,7 @@ entries:
     version: 0.1.28
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.66074039Z"
+    created: "2025-09-19T20:07:26.900674551Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -1875,7 +1891,7 @@ entries:
     version: 0.1.27
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.649399676Z"
+    created: "2025-09-19T20:07:26.892230149Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -1891,7 +1907,7 @@ entries:
     version: 0.1.26
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.641871647Z"
+    created: "2025-09-19T20:07:26.882597019Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -1907,7 +1923,7 @@ entries:
     version: 0.1.25
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.625801013Z"
+    created: "2025-09-19T20:07:26.869626828Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -1923,7 +1939,7 @@ entries:
     version: 0.1.24
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.602474496Z"
+    created: "2025-09-19T20:07:26.8517074Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -1939,7 +1955,7 @@ entries:
     version: 0.1.23
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.589956144Z"
+    created: "2025-09-19T20:07:26.84361874Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -1955,7 +1971,7 @@ entries:
     version: 0.1.22
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.58029443Z"
+    created: "2025-09-19T20:07:26.835495556Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -1971,7 +1987,7 @@ entries:
     version: 0.1.21
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.568622669Z"
+    created: "2025-09-19T20:07:26.816514325Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -1987,7 +2003,7 @@ entries:
     version: 0.1.20
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.547750253Z"
+    created: "2025-09-19T20:07:26.795931057Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -2003,7 +2019,7 @@ entries:
     version: 0.1.19
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.540452402Z"
+    created: "2025-09-19T20:07:26.787488919Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -2019,7 +2035,7 @@ entries:
     version: 0.1.18
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.530840349Z"
+    created: "2025-09-19T20:07:26.77994976Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -2035,7 +2051,7 @@ entries:
     version: 0.1.17
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.523900123Z"
+    created: "2025-09-19T20:07:26.770765343Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -2051,7 +2067,7 @@ entries:
     version: 0.1.16
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.509850655Z"
+    created: "2025-09-19T20:07:26.760080359Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -2067,7 +2083,7 @@ entries:
     version: 0.1.15
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.467732408Z"
+    created: "2025-09-19T20:07:26.698723535Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -2083,7 +2099,7 @@ entries:
     version: 0.1.14
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.352631638Z"
+    created: "2025-09-19T20:07:26.580162945Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -2099,7 +2115,7 @@ entries:
     version: 0.1.13
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.234243288Z"
+    created: "2025-09-19T20:07:26.42052209Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -2115,7 +2131,7 @@ entries:
     version: 0.1.12
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.097179756Z"
+    created: "2025-09-19T20:07:26.263334172Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -2131,7 +2147,7 @@ entries:
     version: 0.1.11
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:05.966669642Z"
+    created: "2025-09-19T20:07:26.126181184Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -2147,7 +2163,7 @@ entries:
     version: 0.1.10
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:07.351913444Z"
+    created: "2025-09-19T20:07:27.541421678Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -2163,7 +2179,7 @@ entries:
     version: 0.1.9
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:07.227847635Z"
+    created: "2025-09-19T20:07:27.43819389Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -2179,7 +2195,7 @@ entries:
     version: 0.1.8
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:07.11695215Z"
+    created: "2025-09-19T20:07:27.338546214Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -2195,7 +2211,7 @@ entries:
     version: 0.1.7
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:07.008877156Z"
+    created: "2025-09-19T20:07:27.246573431Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -2211,7 +2227,7 @@ entries:
     version: 0.1.6
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.90431508Z"
+    created: "2025-09-19T20:07:27.134329189Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -2227,7 +2243,7 @@ entries:
     version: 0.1.5
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.802788566Z"
+    created: "2025-09-19T20:07:27.03940515Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -2243,7 +2259,7 @@ entries:
     version: 0.1.4
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.68844854Z"
+    created: "2025-09-19T20:07:26.934422682Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -2259,7 +2275,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:06.560880052Z"
+    created: "2025-09-19T20:07:26.80707316Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -2275,7 +2291,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T20:07:05.943461084Z"
+    created: "2025-09-19T20:07:26.115322206Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -2289,4 +2305,4 @@ entries:
     urls:
     - https://alejandrazuleta1.github.io/pedidos-charts/pedido-app-0.1.1.tgz
     version: 0.1.1
-generated: "2025-09-19T20:07:05.927798027Z"
+generated: "2025-09-19T20:07:26.106701828Z"
