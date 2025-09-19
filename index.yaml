@@ -3,7 +3,7 @@ entries:
   pedido-app:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-17T19:45:05.6768816-05:00"
+    created: "2025-09-19T20:36:38.568566164Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -11,52 +11,10 @@ entries:
       repository: https://charts.bitnami.com/bitnami
       version: 12.12.10
     description: Sistema de gestión de pedidos
-    digest: 86cbfbac891b92f0e8f02385d071b71c72b1f15c6539dc003fc6d019948190b1
+    digest: 2b87dba211e0b4d8926aeffc7de06ccbf17143db15018c07297ccd758dcb7e73
     name: pedido-app
     type: application
     urls:
-    - https://alejandrazuleta1.github.io/pedidos-charts/charts/pedido-app-0.1.0.tgz
-    version: 0.1.0
-  postgresql:
-  - annotations:
-      category: Database
-      images: |
-        - name: os-shell
-          image: docker.io/bitnami/os-shell:11-debian-11-r77
-        - name: postgres-exporter
-          image: docker.io/bitnami/postgres-exporter:0.14.0-debian-11-r2
-        - name: postgresql
-          image: docker.io/bitnami/postgresql:15.4.0-debian-11-r45
-      licenses: Apache-2.0
-    apiVersion: v2
-    appVersion: 15.4.0
-    created: "2025-09-17T19:45:05.6809512-05:00"
-    dependencies:
-    - name: common
-      repository: oci://registry-1.docker.io/bitnamicharts
-      tags:
-      - bitnami-common
-      version: 2.x.x
-    description: PostgreSQL (Postgres) is an open source object-relational database
-      known for reliability and data integrity. ACID-compliant, it supports foreign
-      keys, joins, views, triggers and stored procedures.
-    digest: 6e7c4f44ebf2606b9a2c3339a5e3317e98e492c6ec2e732654382cf4e5726d07
-    home: https://bitnami.com
-    icon: https://bitnami.com/assets/stacks/postgresql/img/postgresql-stack-220x234.png
-    keywords:
-    - postgresql
-    - postgres
-    - database
-    - sql
-    - replication
-    - cluster
-    maintainers:
-    - name: VMware, Inc.
-      url: https://github.com/bitnami/charts
-    name: postgresql
-    sources:
-    - https://github.com/bitnami/charts/tree/main/bitnami/postgresql
-    urls:
-    - https://alejandrazuleta1.github.io/pedidos-charts/charts/postgresql-12.12.10.tgz
-    version: 12.12.10
-generated: "2025-09-17T19:45:05.6668716-05:00"
+    - https://alejandrazuleta1.github.io/pedidos-charts/charts/pedido-app-0.1.145.tgz
+    version: 0.1.145
+generated: "2025-09-19T20:36:38.550119091Z"
