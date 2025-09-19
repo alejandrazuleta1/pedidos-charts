@@ -3,7 +3,7 @@ entries:
   pedido-app:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-19T21:53:57.649523866Z"
+    created: "2025-09-19T22:16:43.90541096Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -11,10 +11,10 @@ entries:
       repository: https://charts.bitnami.com/bitnami
       version: 12.12.10
     description: Sistema de gestión de pedidos
-    digest: 43f20aa631869a58a871e4b546c23865aefd2fccb78c8e8a4a9b6ea07587b02a
+    digest: d9d65f650b61f5845cb2c85b8542020851e1491fe387c8845c03f0ef7a7e7cd4
     name: pedido-app
     type: application
     urls:
     - https://alejandrazuleta1.github.io/pedidos-charts/charts/pedido-app-0.1.145.tgz
     version: 0.1.145
-generated: "2025-09-19T21:53:57.641364417Z"
+generated: "2025-09-19T22:16:43.891056787Z"
