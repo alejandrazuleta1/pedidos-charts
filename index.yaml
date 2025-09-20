@@ -3,7 +3,23 @@ entries:
   pedido-app:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-20T01:42:56.700285248Z"
+    created: "2025-09-20T02:26:50.306785747Z"
+    dependencies:
+    - alias: db
+      condition: db.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 12.12.10
+    description: Sistema de gestión de pedidos
+    digest: afe8856cb12abcd9103fc23dca4369d11b590040b344ed99af9054645186c766
+    name: pedido-app
+    type: application
+    urls:
+    - https://alejandrazuleta1.github.io/pedidos-charts/charts/pedido-app-0.1.8.tgz
+    version: 0.1.8
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-09-20T02:26:50.295476774Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -19,7 +35,7 @@ entries:
     version: 0.1.7
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-20T01:42:56.691687447Z"
+    created: "2025-09-20T02:26:50.283221816Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -35,7 +51,7 @@ entries:
     version: 0.1.6
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-20T01:42:56.678689701Z"
+    created: "2025-09-20T02:26:50.271054611Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -51,7 +67,7 @@ entries:
     version: 0.1.5
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-20T01:42:56.666899206Z"
+    created: "2025-09-20T02:26:50.26012373Z"
     dependencies:
     - alias: db
       condition: db.enabled
@@ -65,4 +81,4 @@ entries:
     urls:
     - https://alejandrazuleta1.github.io/pedidos-charts/charts/pedido-app-0.1.4.tgz
     version: 0.1.4
-generated: "2025-09-20T01:42:56.640925757Z"
+generated: "2025-09-20T02:26:50.247482275Z"
